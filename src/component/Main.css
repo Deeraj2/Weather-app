@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+.weather{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    border-radius: 15px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.030);   
+    padding: 16px 64px;
+    font-family: 'Outfit',sans-serif;
+}
+.weather-temp{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.weather-img{
+    height: 80px;
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.weather-f{
+    font-size: 60px;
+}
+.weather-country{
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke
+}
+.weather-desc{
+    font-size: 18px;
+    font-weight: 500;
+    color: whitesmoke;
+    
+}
+.weather-date{
+    margin-top: 5px;
+    font-size: 16px;
+    color: rgb(199, 199, 199);
+}
+.date{
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: rgb(199, 199, 199);
+}
+.bottom{
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+.bottoms{
+    text-align: center;
+    width: 90px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 15px;
+    margin-right: 10px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+.bottom-desc{
+    font-weight: 600;
+    font-size: 18px;
+}
+.bottom-data{
+    font-size: 17px;
+}
+.input{
+    margin: 30px;
+    text-align: center;
+}
+input{
+    width: 200px;
+    padding: 18px;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+    background-color: whitesmoke;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
