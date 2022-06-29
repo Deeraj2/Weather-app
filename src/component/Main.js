@@ -6,7 +6,7 @@ import moment from 'moment';
 function Main() {
     const [data, setData] = useState({})
     const [country, setCountry] = useState('')
-    const baseURL = `https://api.openweathermap.org/data/2.5/weather?q=${country}&units=imperial&appid=a896b4ed474540df4a3135d2f361d145` 
+    const baseURL = `https://api.openweathermap.org/data/2.5/weather?q=${country}&units=imperial&appid=${process.env.REACT_APP_API_KEY}` 
 
 
     const searchLocation = (event) => {
